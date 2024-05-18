@@ -45,7 +45,10 @@ L2 : [
 
 
 
-
+app.get("/Ver" , async(Req , Res) => {
+let Version = "V1.12"
+Res.send(Version)
+})
 
 
 
