@@ -26,6 +26,7 @@ L1 : [
     ["Mohammed Osama" , "محمد أسامة"],
     ["Ahmed Mohammed" , "أحمد محمد"],
     ["Youssef Hegazy" , "يوسف حجازي"],
+    ["Ahmed Abdel-Hamid","أحمد عبدالحميد"]
 
 ],
 L2 : [
@@ -47,7 +48,7 @@ L2 : [
 
 app.get("/Ver" , async(Req , Res) => {
 let Version = "V1.12"
-let Link = ""
+let Link = "https://www.mediafire.com/file/0qux8oi1b6tazqz/V1.12.apk/file"
 Res.json(
 {Ver : Version,
 Link : Link
