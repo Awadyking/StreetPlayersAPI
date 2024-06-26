@@ -11,8 +11,7 @@ app.get("/" , async(Req , Res) => {
 let Players = {
 L0 : [
 ["Ali Ahmed" , "علي أحمد"],
-["Kareem Ayman" , "كريم أيمن"],
-["Youssef Hussien" , "يوسف حسين"],
+["Kareem Ayman" , "كريم أيمن"]
 ],
 L1 : [
     ["Ali Elawady" , "علي العوضي"],
@@ -26,7 +25,8 @@ L1 : [
     ["Mohammed Osama" , "محمد أسامة"],
     ["Ahmed Mohammed" , "أحمد محمد"],
     ["Youssef Hegazy" , "يوسف حجازي"],
-    ["Ahmed Abdel-Hamid","أحمد عبدالحميد"]
+    ["Ahmed Abdel-Hamid","أحمد عبدالحميد"],	
+    ["Youssef Hussien" , "يوسف حسين"]
 
 ],
 L2 : [
@@ -48,7 +48,7 @@ L2 : [
 
 app.get("/Ver" , async(Req , Res) => {
 let Version = "V1.12"
-let Link = "https://www.mediafire.com/file/0qux8oi1b6tazqz/V1.12.apk/file"
+let Link = "https://www.mediafire.com/file/f1m2y675bqybro4/V1.27.apk/file"
 Res.json(
 {Ver : Version,
 Link : Link
