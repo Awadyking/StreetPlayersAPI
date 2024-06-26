@@ -47,7 +47,7 @@ L2 : [
 
 
 app.get("/Ver" , async(Req , Res) => {
-let Version = "V1.12"
+let Version = "V1.27"
 let Link = "https://www.mediafire.com/file/f1m2y675bqybro4/V1.27.apk/file"
 Res.json(
 {Ver : Version,
