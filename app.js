@@ -47,8 +47,8 @@ L2 : [
 
 
 app.get("/Ver" , async(Req , Res) => {
-let Version = "V1.27"
-let Link = "https://www.mediafire.com/file/f1m2y675bqybro4/V1.27.apk/file"
+let Version = "V1.28"
+let Link = "https://www.webintoapp.com/store/354648"
 Res.json(
 {Ver : Version,
 Link : Link
