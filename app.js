@@ -47,7 +47,7 @@ L2 : [
 
 
 app.get("/Ver" , async(Req , Res) => {
-let Version = "V1.28"
+let Version = "V1.27"
 let Link = "https://www.webintoapp.com/store/354648"
 Res.json(
 {Ver : Version,
