@@ -26,7 +26,8 @@ L1 : [
     ["Ahmed Mohammed" , "أحمد محمد"],
     ["Youssef Hegazy" , "يوسف حجازي"],
     ["Ahmed Abdel-Hamid","أحمد عبدالحميد"],	
-    ["Youssef Hussien" , "يوسف حسين"]
+    ["Youssef Hussien" , "يوسف حسين"],
+    ["Samir Asem" , "سمير عاصم"]
 
 ],
 L2 : [
